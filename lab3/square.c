@@ -13,7 +13,7 @@ int main(int argc, char** argv){
 
     printf("Enter side length of square: ");
     double side = 0;
-    scanf(&side);
+    scanf("%lf", &side);
 
     if(side <= 0){
         printf("Invalid side length");

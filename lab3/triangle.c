@@ -12,7 +12,7 @@ int main(int argc, char** argv){
 
     printf("Enter height of triangle: ");
     double height = 0;
-    scanf(&height);
+    scanf("%lf", &height);
 
     if(height <= 0){
         printf("Invalid height");
@@ -21,7 +21,7 @@ int main(int argc, char** argv){
 
     printf("Enter width of triangle: ");
     double width = 0;
-    scanf(&width);
+    scanf("%lf", &width);
 
     if(width <= 0){
         printf("Invalid width");
