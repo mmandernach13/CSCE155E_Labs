@@ -15,7 +15,7 @@ int main(int argc, char** argv){
     scanf("%lf", &height);
 
     if(height <= 0){
-        printf("Invalid height");
+        printf("Invalid height\n");
         exit(1);
     }
 
@@ -24,13 +24,13 @@ int main(int argc, char** argv){
     scanf("%lf", &width);
 
     if(width <= 0){
-        printf("Invalid width");
+        printf("Invalid width\n");
         exit(1);
     }
 
     double area = 0.5*height*width;
 
-    printf("Area of square is: %.2lf", area);
+    printf("Area of square is: %.2lf\n", area);
     
     return 0;
 }

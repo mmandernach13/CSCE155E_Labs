@@ -16,13 +16,13 @@ int main(int argc, char** argv){
     scanf("%lf", &side);
 
     if(side <= 0){
-        printf("Invalid side length");
+        printf("Invalid side length\n");
         exit(1);
     }
 
     double area = side * side;
 
-    printf("Area of square is: %.2lf", area);
+    printf("Area of square is: %.2lf\n", area);
 
     return 0;
 }
